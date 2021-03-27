@@ -1,0 +1,6 @@
+.c-flex {
+    @include tab {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,35 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: 'Righteous', cursive, "Noto Sans JP", sans-serif;
+}
+
+// font-family: "Noto Sans JP", sans-serif;
+// font-family: 'Righteous', sans-serif;
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+//font-color
+$cblack: #393331;
+$cblue: #03ADC7;
+$csilver: #808080;
+$cwhite: #fff;
+$cgray: #F6F6F6;
+
+
+// bgc 
+$gray: #F5F5F5;

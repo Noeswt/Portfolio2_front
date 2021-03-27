@@ -1,0 +1,28 @@
+.p-profile {
+    color: $cwhite;
+    background-color: $cblue;
+    border-radius: 20px 20px 0 0;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 60px;
+
+        @include tab {
+            margin-bottom: 70px;
+        }
+        @include pc {
+            text-align: left;
+            margin-bottom: 80px;
+        }
+    }
+
+    &__txt {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+
+        @include pc {
+            margin-left: 5vw;
+        }
+    }
+}

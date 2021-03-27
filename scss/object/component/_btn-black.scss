@@ -1,0 +1,16 @@
+.c-btn-black {
+    width: 100%;
+    line-height: 60px;
+    background-color: rgba($cblack, 0);
+    color: $cblack;
+    border: 2px solid $cblack;
+    font-family: 'Righteous', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s;
+
+    @include tab {
+        width: 300px;
+    }
+}

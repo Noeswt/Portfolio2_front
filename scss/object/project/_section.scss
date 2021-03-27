@@ -1,0 +1,10 @@
+.p-section {
+    padding: 80px 0;
+
+    @include tab {
+        padding: 90px 0;
+    }
+    @include pc {
+        padding: 100px 0;
+    }
+}

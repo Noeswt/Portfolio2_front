@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="岩永 礼恩｜Leon Iwanaga のPortfolio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <script src="https://kit.fontawesome.com/3101a44c6b.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>岩永礼恩｜Leon Iwanaga - Portfolio</title>
+</head>
+
+<body>
+    <header class="l-header">
+        <div class="l-header-container">
+            <div class="p-header">
+                <a href="#top" class="p-header__title">
+                    <h1 class="p-header__title__txt">Portfolio</h1>
+                </a>
+                <nav class="p-header__nav"> <!-- menu open -->
+                    <ul class="p-header__nav__ul">
+                        <li class="p-header__nav__ul__li"><a href="#sec1">ABOUT</a></li>
+                        <li class="p-header__nav__ul__li"><a href="#sec2">SERVICES</a></li>
+                        <li class="p-header__nav__ul__li"><a href="#sec3">WORKS</a></li>
+                        <li class="p-header__nav__ul__li"><a href="#sec4">CONTACT</a></li>
+                    </ul>
+                </nav>
+
+                <!-- burger-button -->
+                <button class="p-header__burger-btn js-burger-btn"> <!-- on click --> <!-- menu open -->
+                    <span class="p-header__burger-btn__bar"></span> <!-- menu open -->
+                    <span class="p-header__burger-btn__bar"></span> <!-- menu open -->
+                    <span class="p-header__burger-btn__bar"></span> <!-- menu open -->
+                </button>
+            </div>
+        </div>
+    </header>   
+
+    <!-- main -->
+    <main id="top" class="l-main">
+
+        <!-- first view -->
+        <div class="p-fv">
+            <div class="p-fv__box">
+                <p class="p-fv__box__title">
+                    Leon<br>
+                    Iwanaga
+                </p>
+                <p class="p-fv__box__txt">
+                    Front-End Engineer<br>
+                    Video Editor<br>
+                    PC Gamer
+                </p>
+            </div>
+            <a href="#sec1" class="p-fv__scroll">
+                Scroll
+            </a>
+        </div>
+
+        <!-- profile -->
+        <section id="sec1" class="p-section p-profile">
+            <div class="l-container">
+                <h2 class="p-profile__title c-top-title">
+                    What I Do
+                </h2>
+                <p class="p-profile__txt c-fade-in">
+                    都内の大学に通いながら、Web制作を中心に活動しています。<br>
+                    迅速かつ丁寧にコミュニケーションをとり、安心してご依頼いただける環境づくりを心がけています。
+                </p>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section class="p-section p-about">
+            <div class="l-container">
+                <div class="c-flex">
+                    <div class="p-about__box">
+                        <h3 class="p-about__box__sub-title c-sub-title c-fade-in"> <!-- ::afterで下線 -->
+                            About me
+                        </h3>
+                        <p class="p-about__box__txt p-about__box__name">
+                            岩永 礼恩<span>- Iwanaga Leon -</span><br>
+                        </p>
+                        <p class="p-about__box__txt">
+                            <time datetime="2000-03-25">2000/03/25</time>
+                            <span>21歳</span> 
+                            東京都出身<br>
+                        </p>
+                        <p class="p-about__box__txt">
+                            趣味：<br>
+                            PCゲーム（FPS）、旅行、ドライブ、動画撮影・編集
+                        </p>
+                    </div>
+                    
+                    <div class="p-about__box">
+                        <h3 class="p-about__box__sub-title c-sub-title c-fade-in"> <!-- ::afterで下線 -->
+                            Skill
+                        </h3>
+                        <p class="p-about__box__skill">
+                            HTML / CSS / JavaScript / jQuery / Sass / FLOCSS<br>
+                            CMS（WordPress） / Adobe XD / Premire Pro<br>
+                            etc...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- services -->
+        <section id="sec2" class="p-section p-service">
+            <div class="l-container">
+                <h2 class="p-service__title c-section-title c-fade-in">
+                    SERVICES
+                </h2>
+                <div class="c-flex">
+                    <article class="p-service__web">
+                        <h3 class="p-service__web__title">
+                            Webサイト制作
+                        </h3>
+                        <i class="fas fa-laptop-code"></i>
+                        <p>
+                            HTML・CSS (Sass) ・JavaScript (jQuery) を用いて静的、動的なWebサイトを制作することが可能です。
+                        </p>
+                        <p>
+                            約80%以上の方がスマートフォンでWebサイトを閲覧されている現在、どのデバイスにも対応したレスポンシブなWebサイトを制作いたします。
+                        </p>
+                        <p>
+                            また、FLOCSSによるCSS設計を取り入れ、作業効率向上と共同作業に対応しています。
+                        </p>
+                    </article>
+
+                    <article class="p-service__wp">
+                        <h3 class="p-service__wp__title">
+                            WordPress
+                        </h3>
+                        <i class="fab fa-wordpress"></i>
+                        <p>
+                            WordPress導入、必要プラグインの追加などのWordPress化に必要な工程全般をお受けいたします。
+                        </p>
+                        <p>
+                            すでにお持ちの静的なサイトのWordPress化も可能です。編集、更新のしやすいサイトを制作いたします。
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- works -->
+        <section id="sec3" class="p-section p-works">
+            <div class="c-slider-container">
+                <h2 class="p-works__title c-section-title c-fade-in">
+                    WORKS
+                </h2>
+                <div class="p-works__slider js-slider">
+                    <a href="https://github.com/Noeswt"><img src="images/cresta_third.jpg" alt=""></a>
+                    <a href="https://github.com/Noeswt"><img src="images/cresta_third.jpg" alt=""></a>
+                    <a href="https://github.com/Noeswt"><img src="images/cresta_third.jpg" alt=""></a>
+                    <a href="https://github.com/Noeswt"><img src="images/cresta_third.jpg" alt=""></a>
+                    <a href="https://github.com/Noeswt"><img src="images/cresta_third.jpg" alt=""></a>
+                </div>
+                <div class="p-works__thumb js-thumb">
+                    <a href="https://github.com/Noeswt"><img src="images/cresta_third.jpg" alt=""></a>
+                    <a href="https://github.com/Noeswt"><img src="images/cresta_third.jpg" alt=""></a>
+                    <a href="https://github.com/Noeswt"><img src="images/cresta_third.jpg" alt=""></a>
+                    <a href="https://github.com/Noeswt"><img src="images/cresta_third.jpg" alt=""></a>
+                    <a href="https://github.com/Noeswt"><img src="images/cresta_third.jpg" alt=""></a>
+                </div>
+                <button class="p-works__btn c-btn-white c-slide-white">Read more ></button>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="sec4" class="p-section p-contact">
+            <div class="l-container">
+                <h2 class="p-contact__title c-section-title c-fade-in">
+                    CONTACT
+                </h2>
+                <p class="p-contact__txt c-fade-in">
+                    制作のご依頼、ご相談などはこちら<br>
+                    お問い合わせはお気軽にどうぞ
+                </p>
+                <form action="" class="p-contact__form">
+                    <div class="p-contact__form__inner">
+                        <label for="name">お名前</label>
+                        <input type="text" name="name">
+                    </div>
+                    <div class="p-contact__form__inner">
+                        <label for="email">メールアドレス</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="p-contact__form__inner">
+                        <label for="message">お問い合わせ内容</label>
+                        <textarea name="message"></textarea>
+                    </div>
+                </form>
+                <button class="p-contact__btn c-btn-black c-slide-black">Submit ></button>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="l-footer">
+        <div class="p-footer">
+            <div class="l-container">
+                <ul class="p-footer__icon c-flex-center">
+                    <li class="p-footer__icon__item">
+                        <a href="https://twitter.com/Noe20201011"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="p-footer__icon__item">
+                        <a href="https://www.youtube.com/channel/UCZ6CM1FrzYYsjPhCM0OPsRg"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li class="p-footer__icon__item">
+                        <a href="https://github.com/Noeswt"><i class="fab fa-github"></i></a>
+                    </li>
+                </ul>
+                <hr>
+                <ul class="p-footer__bottom c-flex-space-between">
+                    <li><small>&copy; 2021 Leon Iwanaga All Rights Reserved</small></li>
+                    <li><a href="#top">TOP</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script src='js/script.js'></script>
+</body>
+</html>

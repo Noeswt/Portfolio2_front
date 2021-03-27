@@ -1,0 +1,28 @@
+.p-works {
+    color: $cwhite;
+    background-color: $cblack;
+
+    &__title {
+        margin-bottom: 60px;
+        text-align: center;
+
+        @include tab {
+            margin-bottom: 70px;
+        }
+        @include pc {
+            margin-bottom: 80px;
+        }
+    }
+
+    &__btn {
+        display: block;
+        margin: 60px auto 0;
+
+        @include tab {
+            margin-top: 70px;
+        }
+        @include pc {
+            margin-top: 80px;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.c-section-title {
+    font-size: 40px;
+
+    @include tab {
+        font-size: 50px;
+    }
+    @include pc {
+        font-size: 60px;
+    }
+}

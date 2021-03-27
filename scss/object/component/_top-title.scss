@@ -1,0 +1,10 @@
+.c-top-title {
+    font-size: 40px;
+
+    @include tab {
+        font-size: 60px;
+    }
+    @include pc {
+        font-size: 80px;
+    }
+}

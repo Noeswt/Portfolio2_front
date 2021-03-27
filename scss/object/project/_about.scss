@@ -1,0 +1,46 @@
+.p-about {
+    color: $cwhite;
+    background-color: $cblack;
+    line-height: 1.5;
+
+    &__box {
+        @include tab {
+            width: 50%;
+            padding: 0  20px;
+        }
+
+        &:first-child {
+            margin-bottom: 60px;
+
+            @include tab {
+                margin: 0;
+            }
+        }
+
+        &__sub-title {
+            margin-bottom: 40px;
+            text-align: center;
+
+            @include pc {
+                text-align: left;
+            }
+        }
+
+        &__txt {
+            margin-bottom: 20px;
+            font-family: "Noto Sans JP", sans-serif;
+
+            span {
+                margin: 0 20px;
+            }
+        }
+
+        &__name {
+            font-size:18px;
+        }
+
+        &__skill {
+            font-family: "Noto Sans JP", sans-serif;
+        }
+    }
+}

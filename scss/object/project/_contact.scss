@@ -1,0 +1,83 @@
+.p-contact {
+    color: $cblack;
+    background-color: $cgray;
+
+    &__title {
+        margin-bottom: 60px;
+        text-align: center;
+
+        @include tab {
+            margin-bottom: 70px;
+        }
+        @include pc {
+            margin-bottom: 80px;
+        }
+    }
+
+    &__txt {
+        margin-bottom: 60px;
+        text-align: center;
+        line-height: 1.5;
+
+        @include tab {
+            margin-bottom: 70px;
+        }
+        @include pc {
+            margin-bottom: 80px;
+        }
+    }
+
+    &__form {
+        margin-bottom: 60px;
+        color: $cblack;
+
+        @include tab {
+            margin-bottom: 70px;
+        }
+        @include pc {
+            margin-bottom: 80px;
+        }
+        
+        &__inner {
+            margin-bottom: 20px;
+
+            label {
+                display: block;
+                margin-bottom: 10px;
+                font-family: "Noto Sans JP", sans-serif;
+            }
+
+            input {
+                width: 100%;
+                height: 36px;
+                border: none;
+                border-radius: 5px;
+                background-color: rgba($cblack, 0.2);
+
+                @include tab {
+                    width: 50%;
+                }
+            }
+
+            textarea {
+                width: 100%;
+                height: 200px;
+                border: none;
+                border-radius: 5px;
+                background-color: rgba($cblack, 0.2);
+            }
+        }
+    }
+
+    &__btn {
+        display: block;
+        margin: 60px auto 0;
+
+        @include tab {
+            margin-top: 70px;
+        }
+        @include pc {
+            margin-top: 80px;
+        }
+    }
+}

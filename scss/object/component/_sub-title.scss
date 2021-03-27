@@ -1,0 +1,33 @@
+.c-sub-title {
+    position: relative;
+    font-size: 24px;
+
+    @include tab {
+        font-size: 36px;
+    }
+    @include pc {
+        display: inline-block;
+    }
+
+    &::after {
+        content: ' ';
+        display: inline-block;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 25px;
+        height: 1px;
+        background-color: $cwhite;
+
+        @include tab {
+            top: 55px;
+        }
+        @include pc {
+            height: 90%;
+            width: 1px;
+            top: 0;
+            left: -20px;
+        }
+    }
+}

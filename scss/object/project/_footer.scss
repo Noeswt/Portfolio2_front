@@ -1,0 +1,43 @@
+.p-footer {
+    width: 100%;
+    background-color: $cblack;
+
+    &__icon {
+        height: 100px;
+
+        &__item {
+            margin: 0 20px;
+
+            .fab {
+                color: $cwhite;
+                font-size: 24px;
+            }
+        }
+    }
+
+    hr {
+        margin: 0;
+    }
+
+    &__bottom {
+        height: 100px;
+        
+        small {
+            color: $cwhite;
+            font-size: 10px;
+
+            @include tab {
+                font-size: 16px;
+                font-family: "Noto Sans JP", sans-serif;
+            }
+        }
+
+        a {
+            color: $cwhite;
+
+            @include tab {
+                font-size: 24px;
+            }
+        }
+    }
+}

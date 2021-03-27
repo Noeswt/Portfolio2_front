@@ -1,0 +1,8 @@
+.l-container {
+    width: 80vw;
+    margin: 0 auto;
+
+    @include pc {
+        width: 1000px;
+    }
+}
